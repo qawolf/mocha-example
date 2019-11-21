@@ -1,0 +1,387 @@
+{
+    "name": "united_com",
+    "size": "desktop",
+    "steps": [
+     {
+      "action": "type",
+      "index": 0,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "departing airport and recent search suggestion panel opened",
+       "classList": [
+        "app-components-AutoComplete-autocomplete__autoCompleteInput--3Rus_"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "bookFlightOriginInput",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": [
+        "from*"
+       ],
+       "name": null,
+       "parentText": [
+        "from*",
+        "from*"
+       ],
+       "placeholder": "from*",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='bookFlightOriginInput']"
+      },
+      "value": "↓MetaLeft↓KeyA↑MetaLeft↑KeyA↓ShiftLeft↓KeyJ↑KeyJ↓KeyF↑KeyF↓KeyK↑ShiftLeft↑KeyK"
+     },
+     {
+      "action": "type",
+      "index": 1,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "departing airport and recent search suggestion panel opened",
+       "classList": [
+        "app-components-AutoComplete-autocomplete__autoCompleteInput--3Rus_"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "bookFlightOriginInput",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": [
+        "from*"
+       ],
+       "name": null,
+       "parentText": [
+        "from*",
+        "from*"
+       ],
+       "placeholder": "from*",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='bookFlightOriginInput']"
+      },
+      "value": "↓Tab↑Tab"
+     },
+     {
+      "action": "type",
+      "index": 2,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "arriving airport and featured destinations suggestion panel opened",
+       "classList": [
+        "app-components-AutoComplete-autocomplete__autoCompleteInput--3Rus_"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "bookFlightDestinationInput",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": [
+        "to*"
+       ],
+       "name": null,
+       "parentText": [
+        "to*",
+        "to*"
+       ],
+       "placeholder": "to*",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='bookFlightDestinationInput']"
+      },
+      "value": "↓ShiftLeft↓KeyB↑KeyB↓KeyO↑KeyO↓KeyS↑KeyS↑ShiftLeft"
+     },
+     {
+      "action": "type",
+      "index": 3,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "arriving airport and featured destinations suggestion panel opened",
+       "classList": [
+        "app-components-AutoComplete-autocomplete__autoCompleteInput--3Rus_"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "bookFlightDestinationInput",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": [
+        "to*"
+       ],
+       "name": null,
+       "parentText": [
+        "to*",
+        "boston, ma, us (bos) boston, ma, us (bnh)",
+        "flight origin location suggestion panel opened. 2 suggestions are available, use the up and down arrow keys to navigate them.",
+        "to* boston, ma, us (bos) boston, ma, us (bnh) flight origin location suggestion panel opened. 2 suggestions are available, use the up and down arrow keys to navigate them."
+       ],
+       "placeholder": "to*",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='bookFlightDestinationInput']"
+      },
+      "value": "↓Tab↑Tab"
+     },
+     {
+      "action": "type",
+      "index": 4,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "reverse origin and destination",
+       "classList": [
+        "app-components-BookFlightForm-bookFlightForm__btnChangeOriginAndDestination--1G6OL",
+        "app-components-BookFlightForm-bookFlightForm__btnChangeOriginAndDestinationRow--xAfyJ"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": null,
+       "inputType": "button",
+       "isContentEditable": false,
+       "labels": null,
+       "name": null,
+       "parentText": [
+        "from*",
+        "to*",
+        "from* to*"
+       ],
+       "placeholder": null,
+       "innerText": null,
+       "tagName": "button",
+       "title": null,
+       "xpath": "//*[@id='bookFlightForm']/div[2]/button"
+      },
+      "value": "↓Tab↑Tab"
+     },
+     {
+      "action": "type",
+      "index": 5,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "Departure",
+       "classList": [
+        "DateInput_input",
+        "DateInput_input_1",
+        "DateInput_input__focused",
+        "DateInput_input__focused_2"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "DepartDate",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": null,
+       "name": "DepartDate",
+       "parentText": [
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field.",
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field."
+       ],
+       "placeholder": "departure",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='DepartDate']"
+      },
+      "value": "↓Digit3↑Digit3↓Slash↑Slash↓Digit2↑Digit2↓Digit0↑Digit0"
+     },
+     {
+      "action": "type",
+      "index": 6,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "Departure",
+       "classList": [
+        "DateInput_input",
+        "DateInput_input_1",
+        "DateInput_input__focused",
+        "DateInput_input__focused_2"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "DepartDate",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": null,
+       "name": "DepartDate",
+       "parentText": [
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field.",
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field."
+       ],
+       "placeholder": "departure",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='DepartDate']"
+      },
+      "value": "↓Tab↑Tab"
+     },
+     {
+      "action": "type",
+      "index": 7,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "Return",
+       "classList": [
+        "DateInput_input",
+        "DateInput_input_1",
+        "DateInput_input__focused",
+        "DateInput_input__focused_2"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "ReturnDate",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": null,
+       "name": "ReturnDate",
+       "parentText": [
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field.",
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field."
+       ],
+       "placeholder": "return",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='ReturnDate']"
+      },
+      "value": "↓Digit4↑Digit4↓Slash↑Slash↓Digit2↑Digit2↓Digit0↑Digit0"
+     },
+     {
+      "action": "type",
+      "index": 8,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": "Return",
+       "classList": [
+        "DateInput_input",
+        "DateInput_input_1",
+        "DateInput_input__focused",
+        "DateInput_input__focused_2"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "ReturnDate",
+       "inputType": "text",
+       "isContentEditable": false,
+       "labels": null,
+       "name": "ReturnDate",
+       "parentText": [
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field.",
+        "you’re on a date field. either type in the date you want in the format month/day/year or press the down arrow key to interact with the calendar. use the arrow keys to navigate between days and weeks. use page up, page down to move between months and years. press enter to select the date, and escape to close the calendar and return to the input field."
+       ],
+       "placeholder": "return",
+       "innerText": null,
+       "tagName": "input",
+       "title": null,
+       "xpath": "//*[@id='ReturnDate']"
+      },
+      "value": "↓Tab↑Tab"
+     },
+     {
+      "action": "click",
+      "index": 9,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": null,
+       "classList": null,
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": null,
+       "inputType": null,
+       "isContentEditable": false,
+       "labels": null,
+       "name": null,
+       "parentText": [
+        "find flights",
+        "find flights"
+       ],
+       "placeholder": null,
+       "innerText": "find flights",
+       "tagName": "span",
+       "title": null,
+       "xpath": "//*[@id='bookFlightForm']/div[4]/button/span"
+      }
+     },
+     {
+      "action": "click",
+      "index": 10,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": null,
+       "classList": [
+        "wrapper-dropdown-1",
+        "dd-init-complete"
+       ],
+       "dataValue": null,
+       "href": null,
+       "iconContent": null,
+       "id": "ddSortType",
+       "inputType": null,
+       "isContentEditable": false,
+       "labels": null,
+       "name": null,
+       "parentText": [
+        "sort flights by: sort flights by dropdown.current selection is best match this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops",
+        "sort flights by: sort flights by dropdown.current selection is best match this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops"
+       ],
+       "placeholder": null,
+       "innerText": "sort flights by: sort flights by dropdown.current selection is best match this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops this dropdown has following options to sort flights by 1 best match 2 morning departure 3 afternoon departure 4 evening departure 5 arrival time 6 flight duration 7 number of stops",
+       "tagName": "div",
+       "title": null,
+       "xpath": "//*[@id='ddSortType']"
+      }
+     },
+     {
+      "action": "click",
+      "index": 11,
+      "pageId": 0,
+      "target": {
+       "ariaLabel": null,
+       "classList": null,
+       "dataValue": null,
+       "href": "https://www.united.com/ual/en/US/flight-search/book-a-flight/results/rev?f=JFK&t=BOS&d=2020-03-20&r=2020-04-20&sc=7,7&px=1&taxng=1&newHP=True&idx=1#",
+       "iconContent": null,
+       "id": "departure_afternoon",
+       "inputType": null,
+       "isContentEditable": false,
+       "labels": null,
+       "name": null,
+       "parentText": [
+        "afternoon departure",
+        "afternoon departure"
+       ],
+       "placeholder": null,
+       "innerText": "afternoon departure",
+       "tagName": "a",
+       "title": null,
+       "xpath": "//*[@id='departure_afternoon']"
+      }
+     },
+     {
+      "action": "scroll",
+      "index": 12,
+      "pageId": 0,
+      "target": {
+       "tagName": "html",
+       "xpath": "/html"
+      },
+      "value": {
+       "x": 0,
+       "y": 1969
+      }
+     }
+    ],
+    "url": "https://united.com/"
+   }
+   

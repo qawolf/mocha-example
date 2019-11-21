@@ -1,0 +1,22 @@
+{
+  "name": "united-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qawolf/united-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qawolf/united-example/issues"
+  },
+  "homepage": "https://github.com/qawolf/united-example#readme",
+  "devDependencies": {
+    "qawolf": "^0.5.13"
+  }
+}

@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: qawolf/qawolf:latest
+        environment:
+          # output artifacts
+          QAW_DOM_PATH: /tmp/artifacts
+          QAW_LOG_PATH: /tmp/artifacts
+          QAW_VIDEO_PATH: /tmp/artifacts
+          # parameterize tests
+          QAW_UNITED_COM_2: IND
+          QAW_UNITED_COM_7: "3/26"
+    steps:
+      # checkout to include the .qawolf/ folder
+      - checkout
+
+      - run:
+          command: qawolf test
+
+      - store_artifacts:
+          path: /tmp/artifacts
