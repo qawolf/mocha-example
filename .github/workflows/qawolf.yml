@@ -15,11 +15,17 @@ jobs:
         with:
           fetch-depth: 50
       - name: qawolf test
-        uses: qawolf/qawolf@master
+        uses: docker://qawolf/qawolf:v0.6.0-alpha.0
+        with:
+          args: "qawolf test"
         env:
+          # output artifacts
+          QAW_DOM_PATH: /github/workspace/artifacts
+          QAW_LOG_PATH: /github/workspace/artifacts
+          QAW_VIDEO_PATH: /github/workspace/artifacts
           # parameterize tests
           QAW_UNITED_COM_2: IND
-          QAW_UNITED_COM_7: "3/26"
+          QAW_UNITED_COM_6: "3/26"
       - name: Upload Artifacts
         # include test artifacts
         # edit below to only include artifacts in certain scenarios

@@ -6,7 +6,7 @@ trigger:
 resources:
   containers:
     - container: qawolf
-      image: qawolf/qawolf:latest
+      image: qawolf/qawolf:v0.6.0-alpha.0
 
 pool:
   vmImage: "ubuntu-16.04"
@@ -22,7 +22,7 @@ steps:
       QAW_VIDEO_PATH: $(System.DefaultWorkingDirectory)/artifacts
       # parameterize tests
       QAW_UNITED_COM_2: IND
-      QAW_UNITED_COM_7: "3/26"
+      QAW_UNITED_COM_6: "3/26"
 
   - publish: $(System.DefaultWorkingDirectory)/artifacts
     artifact: artifacts
