@@ -1,33 +1,42 @@
-describe('united_com', () => {
+describe("united_com", () => {
   it('can type into "From*" input', async () => {
-    await type(steps[0], values[0]);
+    await type(
+      steps[0],
+      "↓MetaLeft↓KeyA↑MetaLeft↓ShiftLeft↓KeyJ↑KeyJ↓KeyF↑KeyF↓KeyK↑KeyK↑ShiftLeft"
+    );
   });
 
-  it('can click div', async () => {
+  it("can click div", async () => {
     await click(steps[1]);
   });
 
   it('can type into "To*" input', async () => {
-    await type(steps[2], values[2]);
+    await type(steps[2], "↓ShiftLeft↓KeyB↑KeyB↓KeyO↑KeyO↓KeyS↑KeyS↑ShiftLeft");
   });
 
-  it('can click div', async () => {
+  it("can click div", async () => {
     await click(steps[3]);
   });
 
   it('can type into "DepartDate" input', async () => {
-    await type(steps[4], values[4]);
+    await type(
+      steps[4],
+      "↓MetaLeft↓KeyA↑MetaLeft↑KeyA↓Digit3↑Digit3↓NumpadDivide↑NumpadDivide↓Digit2↑Digit2↓Digit0↑Digit0"
+    );
   });
 
-  it('can Tab', async () => {
-    await type(steps[5], values[5]);
+  it("can Tab", async () => {
+    await type(steps[5], "↓Tab↑Tab");
   });
 
   it('can type into "ReturnDate" input', async () => {
-    await type(steps[6], values[6]);
+    await type(
+      steps[6],
+      "↓Digit4↑Digit4↓NumpadDivide↑NumpadDivide↓Digit2↑Digit2↓Digit0↑Digit0"
+    );
   });
 
-  it('can click div', async () => {
+  it("can click div", async () => {
     await click(steps[7]);
   });
 
@@ -43,7 +52,7 @@ describe('united_com', () => {
     await click(steps[10]);
   });
 
-  it('can scroll', async () => {
-    await scroll(steps[11], values[11]);
+  it("can scroll", async () => {
+    await scroll(steps[11], { x: 0, y: 1055 });
   });
 });
