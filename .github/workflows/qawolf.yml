@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 50
       - name: qawolf test
-        uses: docker://qawolf/qawolf:v0.6.0
+        uses: docker://qawolf/qawolf:v0.7.0-alpha.1
         with:
           args: "qawolf test"
         env:
@@ -24,8 +24,10 @@ jobs:
           QAW_LOG_PATH: /github/workspace/artifacts
           QAW_VIDEO_PATH: /github/workspace/artifacts
           # parameterize tests
-          QAW_UNITED_COM_2: IND
-          QAW_UNITED_COM_6: "3/26"
+          FROM_AIRPORT: IND
+          TO_AIRPORT: BOS
+          DEPART_DATE: "3/26"
+          RETURN_DATE: "4/20"
       - name: Upload Artifacts
         # include test artifacts
         # edit below to only include artifacts in certain scenarios

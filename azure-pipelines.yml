@@ -6,7 +6,7 @@ trigger:
 resources:
   containers:
     - container: qawolf
-      image: qawolf/qawolf:v0.6.0
+      image: qawolf/qawolf:v0.7.0-alpha.1
 
 pool:
   vmImage: "ubuntu-16.04"
@@ -21,8 +21,10 @@ steps:
       QAW_LOG_PATH: $(System.DefaultWorkingDirectory)/artifacts
       QAW_VIDEO_PATH: $(System.DefaultWorkingDirectory)/artifacts
       # parameterize tests
-      QAW_UNITED_COM_2: IND
-      QAW_UNITED_COM_6: "3/26"
+      FROM_AIRPORT: IND
+      TO_AIRPORT: BOS
+      DEPART_DATE: "3/26"
+      RETURN_DATE: "4/20"
 
   - publish: $(System.DefaultWorkingDirectory)/artifacts
     artifact: artifacts
