@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx mocha --bail --timeout 60000 .qawolf/tests"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qawolf/united-example.git"
@@ -16,5 +18,8 @@
   "homepage": "https://github.com/qawolf/united-example#readme",
   "devDependencies": {
     "qawolf": "^0.8.0-alpha.2"
+  },
+  "dependencies": {
+    "mocha": "^7.0.0"
   }
 }

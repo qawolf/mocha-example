@@ -4,11 +4,11 @@ const selectors = require("../selectors/united");
 describe("united", () => {
   let browser;
 
-  beforeAll(async () => {
+  before(async () => {
     browser = await launch({ url: "https://united.com/" });
   });
 
-  afterAll(() => browser.close());
+  after(() => browser.close());
 
   it('can click "From*" input', async () => {
     await browser.click(selectors[0]);
