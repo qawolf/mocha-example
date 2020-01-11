@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/qawolf/united-example#readme",
   "devDependencies": {
-    "qawolf": "^0.5.13"
+    "qawolf": "^0.8.0-alpha.2"
   }
 }

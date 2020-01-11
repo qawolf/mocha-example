@@ -10,43 +10,47 @@ describe("united", () => {
 
   afterAll(() => browser.close());
 
+  it('can click "From*" input', async () => {
+    await browser.click(selectors[0]);
+  });
+
   it('can type into "From*" input', async () => {
-    await browser.type(selectors[0], process.env.FROM_AIRPORT);
+    await browser.type(selectors[1], process.env.FROM_AIRPORT);
   });
 
   it("can Tab", async () => {
-    await browser.type(selectors[1], "↓Tab↑Tab");
+    await browser.type(selectors[2], "↓Tab↑Tab");
   });
 
   it('can type into "To*" input', async () => {
-    await browser.type(selectors[2], process.env.TO_AIRPORT);
+    await browser.type(selectors[3], process.env.TO_AIRPORT);
   });
 
   it("can Tab", async () => {
-    await browser.type(selectors[3], "↓Tab↑Tab");
+    await browser.type(selectors[4], "↓Tab↑Tab");
   });
 
   it('can type into "DepartDate" input', async () => {
-    await browser.type(selectors[4], process.env.DEPART_DATE);
+    await browser.type(selectors[5], process.env.DEPART_DATE);
   });
 
   it("can Tab", async () => {
-    await browser.type(selectors[5], "↓Tab↑Tab");
+    await browser.type(selectors[6], "↓Tab↑Tab");
   });
 
   it('can type into "ReturnDate" input', async () => {
-    await browser.type(selectors[6], process.env.RETURN_DATE);
+    await browser.type(selectors[7], process.env.RETURN_DATE);
   });
 
   it("can Tab", async () => {
-    await browser.type(selectors[7], "↓Tab↑Tab");
+    await browser.type(selectors[8], "↓Tab↑Tab");
   });
 
   it('can click "Find flights" button', async () => {
-    await browser.click(selectors[8]);
+    await browser.click(selectors[9]);
   });
 
   it("can scroll", async () => {
-    await browser.scroll(selectors[9], { x: 0, y: 1615 });
+    await browser.scroll(selectors[10], { x: 0, y: 1500 });
   });
 });
