@@ -98,12 +98,5 @@
       ],
       "node": "<button type=\"submit\" class=\"app-components-BookFlightForm-bookFlightForm__findFlightBtn--1lbFe app-components-BookFlightForm-bookFlightForm__btnDefault--3yb7R app-components-BookFlightForm-bookFlightForm__primaryButton--2fg9l\" aria-label=\"Find flights\" innertext=\"Find flights\"><span>Find flights</span></button>"
     }
-  },
-  {
-    "index": 10,
-    "html": {
-      "ancestors": [],
-      "node": "<html/>"
-    }
   }
 ]

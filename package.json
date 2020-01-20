@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/qawolf/united-example#readme",
   "devDependencies": {
-    "qawolf": "^0.8.0-alpha.2"
+    "qawolf": "0.8.1"
   },
   "dependencies": {
     "mocha": "^7.0.0"
